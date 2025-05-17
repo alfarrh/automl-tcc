@@ -1,4 +1,9 @@
 {
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always"
+  },
+  "editor.defaultFormatter": "ms-python.black-formatter",
+  "editor.formatOnSave": true,
   "terminal.integrated.profiles.windows": {
     "Conda (FlaML)": {
       "source": "PowerShell",
@@ -14,6 +19,14 @@
         "-NoExit",
         "-Command",
         "& '~\\miniconda3\\shell\\condabin\\conda-hook.ps1'; conda activate tpot"
+      ]
+    },
+    "Conda (dev)": {
+      "source": "PowerShell",
+      "args": [
+        "-NoExit",
+        "-Command",
+        "& '~\\miniconda3\\shell\\condabin\\conda-hook.ps1'; conda activate dev"
       ]
     }
   },

@@ -1,0 +1,11 @@
+name: dev
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - black
+  - isort
+  - flake8
+  - mypy
+  - pre-commit
+  - pip
