@@ -1,0 +1,21 @@
+{
+  "terminal.integrated.profiles.windows": {
+    "Conda (FlaML)": {
+      "source": "PowerShell",
+      "args": [
+        "-NoExit",
+        "-Command",
+        "& '~\\miniconda3\\shell\\condabin\\conda-hook.ps1'; conda activate flaml"
+      ]
+    },
+    "Conda (TPOT)": {
+      "source": "PowerShell",
+      "args": [
+        "-NoExit",
+        "-Command",
+        "& '~\\miniconda3\\shell\\condabin\\conda-hook.ps1'; conda activate tpot"
+      ]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Conda (FlaML)"
+}
