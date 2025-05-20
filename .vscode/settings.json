@@ -1,4 +1,5 @@
 {
+  "editor.tabSize": 4,
   "editor.codeActionsOnSave": {
     "source.organizeImports": "always"
   },
@@ -30,5 +31,11 @@
       ]
     }
   },
-  "terminal.integrated.defaultProfile.windows": "Conda (FlaML)"
+  "terminal.integrated.defaultProfile.windows": "Conda (FlaML)",
+  "python.analysis.extraPaths": [
+    "./src"
+  ],
+  "conventionalCommits.scopes": [
+    "flaml"
+  ]
 }
