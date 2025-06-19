@@ -3,9 +3,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 
 
-def read_data(path: str, target: str) -> tuple:
+def read_data(path: str, target: str, sep=None) -> tuple:
 
-    df = pd.read_csv(path)
+    df = pd.read_csv(path, sep=sep)
     X = df.drop(columns=[target])
     y = df[target]
 

@@ -12,4 +12,6 @@ if source_path in current_dir:
 PATHS = {
     "KIDNEY_DISEASE": f"{dir}\\datasets\\kidney-disease\\dataset.csv",
     "ADULT_INCOME": f"{dir}\\datasets\\adult-income\\adult.csv",
+    "BANK_MARKETING": f"{dir}\\datasets\\bank-marketing\\bank-full.csv",
+    "ONLINE_SHOP": f"{dir}\\datasets\\online-shoppers\\dataset.csv",
 }
